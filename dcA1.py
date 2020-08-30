@@ -2,8 +2,9 @@ from discord import *
 from asyncio import *
 from random import *
 from re import *
+import os
 
-token="NzQ2Mjg0NzA0MzAyNjI4OTQ0.Xz-Fyg.gXaYXfb5yCpvuukXltGQoCK4dO0"
+token=os.environ["BOT_TOKEN"]
 
 lvl=0
 formular="0"
